@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="@drawable/bg"
+    >
+
+    <!--<include layout="@layout/action_bar" />-->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <FrameLayout
+            android:layout_alignParentBottom="true"
+            android:id="@+id/status_layout"
+            android:layout_width="fill_parent"
+            android:padding="5dp"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/status_layout"
+            android:background="@drawable/time_background"
+            >
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <TextView
+                    style="@style/BitCounter"
+                    android:id="@+id/item_cost_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/none_cost_time"
+                    />
+
+                <Button
+                    android:id="@+id/btn_start"
+                    style="@style/BigStartButton"
+                    android:text="@string/btn_start"
+                    android:layout_marginTop="25dp"
+                    />
+
+                <Button
+                    android:visibility="gone"
+                    android:id="@+id/btn_disabled"
+                    style="@style/BigGrayButton"
+                    android:text="@string/btn_disabled"
+                    android:layout_marginTop="25dp"
+                    />
+
+                <Button
+                    android:visibility="gone"
+                    android:id="@+id/btn_end"
+                    style="@style/BigEndButton"
+                    android:text="@string/btn_end"
+                    android:layout_marginTop="25dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/time_background_border_bottom"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
