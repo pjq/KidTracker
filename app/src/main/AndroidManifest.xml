@@ -116,6 +116,6 @@
             android:exported="true"
             android:process=":DownloadingService">
         </service>
-        <meta-data android:value="4ef2f8e452701501a400004b" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data android:value="4e7603275270150bfb0009e8" android:name="UMENG_APPKEY"></meta-data>
     </application>
 </manifest>

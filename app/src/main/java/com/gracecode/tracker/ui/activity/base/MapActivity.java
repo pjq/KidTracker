@@ -14,8 +14,8 @@ public abstract class MapActivity extends com.baidu.mapapi.MapActivity implement
     protected MapView mapView = null;
     protected MapController mapViewController;
     protected BMapManager bMapManager;
-//    private static final String BAIDU_MAP_KEY = "30183AD8A6AFE7CE8F649ED4CD258211E8DE78D7";
-    private static final String BAIDU_MAP_KEY = "w3yjAdy9zK5ZAoO3XaGXrWQL";
+    private static final String BAIDU_MAP_KEY = "30183AD8A6AFE7CE8F649ED4CD258211E8DE78D7";
+//    private static final String BAIDU_MAP_KEY = "w3yjAdy9zK5ZAoO3XaGXrWQL";
     protected Helper helper;
     protected Context context;
     protected android.app.ActionBar actionBar;
