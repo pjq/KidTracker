@@ -117,5 +117,8 @@
             android:process=":DownloadingService">
         </service>
         <meta-data android:value="4e7603275270150bfb0009e8" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="w3yjAdy9zK5ZAoO3XaGXrWQL" />
     </application>
 </manifest>

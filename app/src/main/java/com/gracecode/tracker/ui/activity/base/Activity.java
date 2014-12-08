@@ -12,8 +12,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.view.View;
-import com.gracecode.tracker.R;
 import com.gracecode.tracker.service.Recorder;
 import com.gracecode.tracker.util.Helper;
 import com.umeng.analytics.MobclickAgent;
@@ -64,7 +62,7 @@ public abstract class Activity extends FragmentActivity {
         bindService(recordServerIntent, serviceConnection, BIND_AUTO_CREATE);
 
         actionBar = getActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+//        actionBar.setDisplayHomeAsUpEnabled(true);
 
 //        actionBar.setHomeAction(new ActionBar.Action() {
 //            @Override
